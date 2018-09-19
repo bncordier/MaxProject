@@ -11,6 +11,66 @@ font-style: 'Lucida Console', monospace;
 	height: 100%;
 }
 
+#cercle {
+    width: 400px;
+    height: 400px;
+    transform: rotate(45deg);
+    background:  #ffffff;
+}
+
+
+#cercle-2 {
+    width: 400px;
+    height: 400px;
+    transform: rotate(45deg);
+    background:  #ffffff;
+}
+
+#cercle-3 {
+    width: 400px;
+    height: 400px;
+    transform: rotate(45deg);
+    background:  #ffffff;
+}
+
+
+.rotate{
+	transform: rotate(-45deg);
+	padding-top: 80px;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-left: -150px;
+	text-decoration: underline;
+}
+
+.rotate-3{
+	transform: rotate(-45deg);
+	padding-top: 80px;
+	padding-left: 20px;
+	padding-right: 100px;
+	margin-left: -100px;
+	text-decoration: underline;
+}
+
+.rotate-text{
+	transform: rotate(-45deg);
+	margin-left: 50px;
+}
+
+
+.style{
+	padding-top: 75px;
+}
+
+#CV{
+	background-image: url(/home/alex/Documents/MaxPlanck/Images/fondcv.jpeg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+
 .card-title{
 font-size: 35px;
 padding-left:15px;
@@ -133,19 +193,41 @@ font-size: 50px;
 color: whitesmoke;
 }
 
+.inactive{
+	color: transparent;
+	padding-bottom: -550px;
+	font-size: 0px;
+}
+
+div hr{
+	display: none;
+	width: 1px;
+}
+
 section{
 padding-bottom: 100px;
 }
 
-@media screen and (min-width: 300px) and (max-width: 791px){
+@media screen and (min-width: 300px) and (max-width: 1300px){
 	.eaglee{
 		display: none;
 	}
 }
 
-@media screen and (max-width: 1140px){
-	.vl{
-		display: none;
+@media screen and (max-width: 900px){
+	#cercle {
+    display: none;
 	}
+
+	#cercle-2 {
+	    display: none;
+	}
+	.inactive{
+	color: white;
+	font-size: 15px;
+	}
+
+
+
 
 }
