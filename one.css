@@ -1,0 +1,13 @@
+body, html{
+	background-image: url(http://image.noelshack.com/fichiers/2018/38/3/1537341711-worldtest.jpg);
+	background-size: cover;
+}
+
+.eagle-one{
+	padding-top: 550px;
+}
+
+.arrondie{
+	border-radius: 30px 0px;
+	width: 75px;
+}
