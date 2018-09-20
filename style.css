@@ -215,6 +215,7 @@ section {
     padding-bottom: 100px;
 }
 
+
 #Presentation,
 #CV,
 #Actu,
@@ -264,6 +265,16 @@ section {
     }
     .myActu{
         font-size: 40px;
+    }
+
+    .card-title{
+        font-size: 25px;
+    }
+    section h3 {
+        font-size: 30px;
+    }
+    .presentation{
+        padding-top: 20px;
     }
 
 }
