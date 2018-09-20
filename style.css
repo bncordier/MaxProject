@@ -63,7 +63,7 @@ font-style: 'Lucida Console', monospace;
 }
 
 #CV{
-	background-image: url(/home/alex/Documents/MaxPlanck/Images/fondcv.jpeg);
+	background-image: url(http://image.noelshack.com/fichiers/2018/38/4/1537428137-fondcv.jpeg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -225,6 +225,9 @@ padding-bottom: 100px;
 	.inactive{
 	color: white;
 	font-size: 15px;
+	}
+	#cercle-3 {
+	    display: none;
 	}
 
 
