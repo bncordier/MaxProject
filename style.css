@@ -1,7 +1,3 @@
-
-
-
-
 html{
 font-style: 'Lucida Console', monospace;
 }
@@ -82,7 +78,17 @@ font-style: italic;
 font-size: 10px;
 }
 
+.fa2x{
+    line-height: 0;
+    font-size: 1.5em;
+}
 
+/* li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+} */
 
 .scrollspy-example {
 position: relative;
@@ -96,19 +102,19 @@ padding-top: 50px;
 table, tr, td{
 border-color: white;
 border: solid black 1px;
-background-color: #ff8566;
-color: whitesmoke;
+color: black;
+padding:15px 15px 15px 015px;
 }
+
 
 .eagle-one{
 font-size: 30px;
-background-color: #ff5c33;
-color: whitesmoke;
+text-align: center;
+border-radius: 50%;
 }
 
 .eagle-two{
-font-size: 15px;
-color: #ff8566;
+font-size: 18px;
 }
 
 #spy{
@@ -142,3 +148,18 @@ section{
 padding-bottom: 100px;
 }
 
+
+.show{   
+    position: absolute;
+    top: 91px;
+    right: 0;
+    background-color: rgba(52, 58, 64,0.7);
+    padding: 15px;
+
+}
+
+/* Padding Top added to #selector to see title */
+
+#Presentation,#CV,#Actu,#contact{
+    padding-top: 100px;
+}
