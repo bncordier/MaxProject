@@ -133,14 +133,6 @@ i {
     font-size: 1.5em;
 }
 
-
-/* li{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-} */
-
 .scrollspy-example {
     position: relative;
     height: 350px;
@@ -224,6 +216,7 @@ section {
     right: 0;
     background-color: rgba(52, 58, 64, 0.7);
     padding: 15px;
+    transition-timing-function: ease;
 }
 
 
