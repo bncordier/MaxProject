@@ -184,8 +184,12 @@ td {
 }
 
 .fab {
-    font-size: 50px;
+    font-size: 20px;
     color: whitesmoke;
+}
+
+.tours{
+    opacity: 0.7;
 }
 
 .inactive {
@@ -202,6 +206,7 @@ div hr {
 section {
     padding-bottom: 100px;
 }
+
 
 #Presentation,
 #CV,
@@ -246,4 +251,23 @@ section {
         width: 60px;
         height: 60px;
     }
+
+    .contact{
+        font-size: 10px;
+        color: black;
+    }
+    .myActu{
+        font-size: 40px;
+    }
+
+    .card-title{
+        font-size: 25px;
+    }
+    section h3 {
+        font-size: 30px;
+    }
+    .presentation{
+        padding-top: 20px;
+    }
+
 }
