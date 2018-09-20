@@ -6,16 +6,70 @@ html{
 font-style: 'Lucida Console', monospace;
 }
 
-body, html{
-margin: 0;
-padding: 0;
-width: 100%;
-height: 100%;
-background-image: url(http://image.noelshack.com/fichiers/2018/38/3/1537342155-galaxy2.jpg);
-background-repeat: no-repeat;
-background-size: cover;
-background-color: #ffffff;
+.faucon{
+	width: 100%;
+	height: 100%;
 }
+
+#cercle {
+    width: 400px;
+    height: 400px;
+    transform: rotate(45deg);
+    background:  #ffffff;
+}
+
+
+#cercle-2 {
+    width: 400px;
+    height: 400px;
+    transform: rotate(45deg);
+    background:  #ffffff;
+}
+
+#cercle-3 {
+    width: 400px;
+    height: 400px;
+    transform: rotate(45deg);
+    background:  #ffffff;
+}
+
+
+.rotate{
+	transform: rotate(-45deg);
+	padding-top: 80px;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-left: -150px;
+	text-decoration: underline;
+}
+
+.rotate-3{
+	transform: rotate(-45deg);
+	padding-top: 80px;
+	padding-left: 20px;
+	padding-right: 100px;
+	margin-left: -100px;
+	text-decoration: underline;
+}
+
+.rotate-text{
+	transform: rotate(-45deg);
+	margin-left: 50px;
+}
+
+
+.style{
+	padding-top: 75px;
+}
+
+#CV{
+	background-image: url(http://image.noelshack.com/fichiers/2018/38/4/1537428137-fondcv.jpeg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
 
 .card-title{
 font-size: 35px;
@@ -33,6 +87,7 @@ padding-bottom: 15px;
 
 
 .presentation{
+padding-top: 100px;
 padding-bottom: 200px;
 }
 
@@ -60,7 +115,7 @@ div.jumbotron{
 width: 500px;
 height: 200px;
 background-color:
-padding-top: -150px;
+padding-top: -250px;
 }
 
 section.ln{
@@ -138,7 +193,44 @@ font-size: 50px;
 color: whitesmoke;
 }
 
+.inactive{
+	color: transparent;
+	padding-bottom: -550px;
+	font-size: 0px;
+}
+
+div hr{
+	display: none;
+	width: 1px;
+}
+
 section{
 padding-bottom: 100px;
 }
 
+@media screen and (min-width: 300px) and (max-width: 1300px){
+	.eaglee{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 900px){
+	#cercle {
+    display: none;
+	}
+
+	#cercle-2 {
+	    display: none;
+	}
+	.inactive{
+	color: white;
+	font-size: 15px;
+	}
+	#cercle-3 {
+	    display: none;
+	}
+
+
+
+
+}
