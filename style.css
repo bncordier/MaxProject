@@ -59,8 +59,8 @@ html {
 }
 
 #CV {
-    background-image: url(http://image.noelshack.com/fichiers/2018/38/4/1537428137-fondcv.jpeg);
-    background-repeat: no-repeat;
+    background-image: url(http: //image.noelshack.com/fichiers/2018/38/4/1537428137-fondcv.jpeg);
+        background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -165,7 +165,7 @@ td {
     padding-top: 100px;
 }
 
-.arrondie {
+#logo {
     border-radius: 30px 0px;
     width: 75px;
 }
@@ -188,7 +188,7 @@ td {
     color: whitesmoke;
 }
 
-.tours{
+.tours {
     opacity: 0.7;
 }
 
@@ -224,6 +224,14 @@ section {
     transition-timing-function: ease;
 }
 
+.globalnav{
+    font-size: 18px;
+    max-height: 75px;
+    opacity: 0.6;
+    transition-property: height,font-size, opacity;
+    transition-duration: 0.7s;
+    transition-timing-function: linear;
+}
 
 @media screen and (min-width: 300px) and (max-width: 1300px) {
     .eaglee {
@@ -239,10 +247,12 @@ section {
     #cercle-2 {
         display: none;
     }
+
     .inactive {
         color: white;
         font-size: 15px;
     }
+
     #cercle-3 {
         display: none;
     }
@@ -252,21 +262,24 @@ section {
         height: 60px;
     }
 
-    .contact{
+    .contact {
         font-size: 10px;
         color: black;
     }
-    .myActu{
+
+    .myActu {
         font-size: 40px;
     }
 
-    .card-title{
+    .card-title {
         font-size: 25px;
     }
+
     section h3 {
         font-size: 30px;
     }
-    .presentation{
+
+    .presentation {
         padding-top: 20px;
     }
 
