@@ -1,7 +1,8 @@
-# MaxProject
+# Max Planck Project
+
 <h1>Projet 1 de la Wild Code School</h1>
 
-<img src="https://icon2.kisspng.com/20171221/bow/minion-large-transparent-cartoon-png-image-5a3b813c2e62f3.29120242151384914819.jpg" alt="Cheeky face">
+<img src="http://img.mako.co.il/2013/07/08/aaaaaa_g.jpg" alt="Cheeky face">
 
 Aide une personnalité historique à se faire recruter
 HTML / CSS / BOOTSTRAP
